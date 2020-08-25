@@ -41,7 +41,7 @@ nav {
 
 /* Hero */
 #hero-wrap {
-    height: 70vh;
+    height: 65vh;
     background-color: #0D1F3C;
     display: flex;
     flex-direction: column;
@@ -144,13 +144,19 @@ footer {
     background-color: #0D1F3C;
     color: white;
     text-align: center;
-    padding: 0.5em 0;
+    padding-bottom: 0.5em;
+    font-size: 8px;
 }
 
 /* Media Queries */
 /* Tablet */
 
 @media all and (min-width: 768px) {
+
+.pro-logo {
+    width: 158px;
+    height: 48px;
+}
 
 /* Hero */
 .hero-info {
@@ -159,7 +165,6 @@ footer {
 
 .hero-info h1 {
     font-size: 48px;
-    font-weight: bold;
 }
 
 .hero-info p {
@@ -206,6 +211,11 @@ footer {
     width: 269px;
 }
 
+.col-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
 .phil-info > h2, .col-wrap {
     width: 80%;
     margin: 0 auto;
@@ -213,11 +223,6 @@ footer {
 
 .phil-info > h2 {
     margin-bottom: 0.5em;
-}
-
-.phil-info > p {
-    width: 80%;
-    margin: 0 auto;
 }
 
 .column-2 {
@@ -250,6 +255,99 @@ footer {
 
 .contact-info {
     width: 80%;
+}
+
+}
+
+/* Medium Screens */
+@media all and (min-width: 992px) {
+
+.pro-logo {
+    width: 173px;
+    height: 53px;
+}
+
+/* Hero */
+.hero-info {
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 54px;
+}
+
+.hero-info p {
+    margin-top: 1.25em;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+/* Philosophy */
+
+.col-wrap {
+    flex-direction: row;
+}
+
+.column-1 {
+    width: 50%;
+    padding-top: 0em;
+    padding: 0 1.25em 0 0.75em;
+}
+
+.column-2 {
+    width: 50%;
+    padding: 0 0.75em 0 1.25em;
+}
+
+}
+
+/* Large Screens */
+@media all and (min-width: 1200px) {
+
+/* Hero */
+.hero-info {
+    width: 45%;
+}
+
+/* What we do */
+
+.what-info, h2, h5 {
+    width: 75%;
+}
+
+.what-info p {
+    width: 75%;
+}
+
+/* Philosophy */
+
+.phil-info {
+    width: 75%;
+}
+
+.phil-info > h2, .col-wrap {
+    width: 75%;
+}
+
+
+/* Why Us */
+
+.why-info {
+    width: 75%;
+}
+
+.why-info > p {
+    width: 75%;
+}
+
+.why-info > ul {
+    width: 75%;
+}
+
+/* Contact  */
+
+.contact-info {
+    width: 75%;
 }
 
 }
