@@ -8,6 +8,10 @@ p, li {
     line-height: 26px;
 }
 
+.contact-link {
+    color: #e20913;
+}
+
 /* NavBar */
 nav {
     background-color: #0D1F3C;
@@ -43,6 +47,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    position: relative;
 }
 
 .hero-info {
@@ -63,6 +68,14 @@ nav {
     font-size: 20px;
 }
 
+.pills-top {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 235px;
+    width: 245px;
+}
+
 /* What we do */
 #what-wrap {
 
@@ -79,12 +92,21 @@ nav {
 #phil-wrap {
     background-color: #0D1F3C;
     color: white;
+    position: relative;
 }
 
 .phil-info {
     width: 90%;
     padding: 3em 0;
     margin: 0 auto;
+}
+
+.pills-middle {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 235px;
+    width: 245px;
 }
 
 /* Why Us */
@@ -102,6 +124,7 @@ nav {
 #contact-wrap {
     background-color: #0D1F3C;
     color: white;
+    text-align: center;
 }
 
 .contact-info {
