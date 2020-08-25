@@ -1,5 +1,5 @@
 /* Global */
-h1, h2 {
+h1, h2, h3 {
     font-family: 'PT Serif', serif;
 }
 
@@ -33,10 +33,10 @@ nav {
 .contact-button {
     background: #e20913;
     border-radius: 20px;
-    width: 144px;
-    max-width: 144px;
-    height: 40px;
+    width: 124px;
+    max-width: 124px;
     text-align: center;
+    justify-content: center;
 }
 
 /* Hero */
@@ -52,7 +52,6 @@ nav {
 
 .hero-info {
     color: #fff;
-    width: 50%;
     text-align: left;
     width: 80%;
     margin: auto;
@@ -66,6 +65,7 @@ nav {
 .hero-info p {
     margin-top: 0.5em;
     font-size: 20px;
+    width: 95%;
 }
 
 .pills-top {
@@ -77,14 +77,19 @@ nav {
 }
 
 /* What we do */
-#what-wrap {
-
-}
 
 .what-info {
     width: 90%;
     padding: 3em 0;
     margin: 0 auto;
+}
+
+.what-info p {
+    opacity: 80%;
+}
+
+.what-info h5 {
+    opacity: 80%;
 }
 
 
@@ -101,6 +106,10 @@ nav {
     margin: 0 auto;
 }
 
+.column-2 {
+    padding-top: 1em;
+}
+
 .pills-middle {
     position: absolute;
     left: 10px;
@@ -110,9 +119,6 @@ nav {
 }
 
 /* Why Us */
-#why-wrap {
-
-}
 
 .why-info {
     width: 90%;
@@ -139,4 +145,111 @@ footer {
     color: white;
     text-align: center;
     padding: 0.5em 0;
+}
+
+/* Media Queries */
+/* Tablet */
+
+@media all and (min-width: 768px) {
+
+/* Hero */
+.hero-info {
+    width: 60%;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-info p {
+    margin-top: 1.25em;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.pills-top {
+    right: 20px;
+    bottom: 20px;
+    height: 258px;
+    width: 269px;
+}
+
+/* What we do */
+
+.what-info, h2, h5 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.what-info p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.what-info h5 {
+    margin: .5em auto .5em auto;
+}
+
+/* Philosophy */
+
+.phil-info {
+    width: 80%;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+.pills-middle {
+    left: 20px;
+    bottom: 20px;
+    height: 258px;
+    width: 269px;
+}
+
+.phil-info > h2, .col-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.phil-info > h2 {
+    margin-bottom: 0.5em;
+}
+
+.phil-info > p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.column-2 {
+    padding-top: 1.5em;
+}
+
+/* Why Us */
+
+.why-info {
+    width: 80%;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+.why-info > h2 {
+    margin-bottom: 0.5em;
+}
+
+.why-info > p {
+    width: 80%;
+    margin: 0 auto 0.5em auto;
+}
+
+.why-info > ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Contact  */
+
+.contact-info {
+    width: 80%;
+}
+
 }
