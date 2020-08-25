@@ -1,0 +1,119 @@
+/* Global */
+h1, h2 {
+    font-family: 'PT Serif', serif;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+/* NavBar */
+nav {
+    background-color: #0D1F3C;
+}
+
+.nav-link{
+    color: #fff!important;
+}
+
+.navbar-toggler {
+    background: white!important;
+}
+
+.pro-logo {
+    width: 144px;
+    height: 44px;
+}
+
+.contact-button {
+    background: #e20913;
+    border-radius: 20px;
+    width: 144px;
+    max-width: 144px;
+    height: 40px;
+    text-align: center;
+}
+
+/* Hero */
+#hero-wrap {
+    height: 70vh;
+    background-color: #0D1F3C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.hero-info {
+    color: #fff;
+    width: 50%;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.hero-info h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero-info p {
+    margin-top: 0.5em;
+    font-size: 20px;
+}
+
+/* What we do */
+#what-wrap {
+
+}
+
+.what-info {
+    width: 90%;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+
+/* Philosophy */
+#phil-wrap {
+    background-color: #0D1F3C;
+    color: white;
+}
+
+.phil-info {
+    width: 90%;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+/* Why Us */
+#why-wrap {
+
+}
+
+.why-info {
+    width: 90%;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+/* Contact  */
+#contact-wrap {
+    background-color: #0D1F3C;
+    color: white;
+}
+
+.contact-info {
+    width: 90%;
+    padding: 3em 0 1.5em 0;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #0D1F3C;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
