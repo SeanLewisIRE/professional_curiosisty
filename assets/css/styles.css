@@ -251,6 +251,11 @@ footer {
     padding-top: 1.5em;
 }
 
+.symbol {
+    right: 50px;
+    top: 50px;
+}
+
 /* Why Us */
 
 .why-info {
@@ -319,12 +324,6 @@ footer {
 .column-2 {
     width: 50%;
     padding: 0 0.75em 0 1.25em;
-}
-
-.symbol {
-    position: absolute;
-    right: 50px;
-    top: 50px;
 }
 
 /* Footer */
