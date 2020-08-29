@@ -41,7 +41,6 @@ nav {
     width: 124px;
     max-width: 124px;
     text-align: center;
-    justify-content: center;
 }
 
 /* Hero */
@@ -51,8 +50,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     position: relative;
+    text-align: left;
 }
 
 .hero-info {
